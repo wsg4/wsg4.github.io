@@ -359,7 +359,9 @@ article {
 article p{
 	margin:0;
 }
-
+article .ul{
+	padding-left: 1.2rem;
+}
 
 /* Responsive Hamburger
 ------------------------ */
