@@ -212,9 +212,9 @@ a {
 /*Cover
 ------------------------*/
 .cover {
-    background: url(../images/80s_2.jpg) no-repeat right/contain;
+    background: url(../images/80s_2.jpg) no-repeat right/fill;
 	background-size: cover;
-    background-position: top 0px right 0px;
+        background-position: top 0px right 0px;
 	/* background: #080120; */
 	display: block;
 	text-align: center;
