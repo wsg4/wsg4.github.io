@@ -253,7 +253,7 @@ a {
 
 .cover p{
 	font-style: oblique;
-	font-size: .75em;
+	font-size: 1rem;
 }
 .cover-about h1{
 	color: #ff00f8;
@@ -266,7 +266,7 @@ a {
 
 .cover-about p{
 	font-style: oblique;
-	font-size: .75em;
+	font-size: 1rem;
 }
 .cover-work h1{
 	color: #ff00f8;
@@ -279,7 +279,7 @@ a {
 
 .cover-work p{
 	font-style: oblique;
-	font-size: .75em;
+	font-size: 1rem;
 }
 
 
