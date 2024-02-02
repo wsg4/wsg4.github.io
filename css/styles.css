@@ -320,7 +320,7 @@ footer h2{
 .grid {
     display: grid;
     margin-top: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(339px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1.5em;
     grid-auto-flow: row dense;
     justify-content: space-between;
