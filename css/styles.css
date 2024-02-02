@@ -210,7 +210,7 @@ a {
     box-shadow: -20px 0 40px rgba(0,0,0,0.3);
 }
 .header:has(.navbar input:checked) ~ .fix {
-	height: 88vh;
+	height: 80vh;
 	overflow-y: hidden;
 }
 /*Cover
