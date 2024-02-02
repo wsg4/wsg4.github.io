@@ -14,10 +14,10 @@ html {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-    text-decoration:none;
-    border: none;
-    outline: none;
-    scroll-behavior: smooth;
+	text-decoration:none;
+	border: none;
+	outline: none;
+	scroll-behavior: smooth;
 	font-family: 'Poppins', 'Helvetica', sans-serif;
 }
 
@@ -29,7 +29,7 @@ body {
 	letter-spacing: 1px;
 	margin:0;
 	background: #080120;
-    color:white;
+        color:white;
 	
 }
 h1, h2, h3, h4 {
@@ -398,8 +398,9 @@ article ul{
         padding: 30px;
         font-size: 24px;
         box-shadow: 0 1px 0 rgba(255,255,255,0.01);
-
     }
+	.menu li:last-child {
+		display: none;
 }
 
 
