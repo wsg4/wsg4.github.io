@@ -212,13 +212,13 @@ a {
 /*Cover
 ------------------------*/
 .cover {
-    background: url(../images/80s_2.jpg) no-repeat right/fill;
+    background: url(../images/80s_2.jpg) no-repeat top right;
 	background-size: cover;
         background-position: top 0px right 0px;
 	/* background: #080120; */
 	display: block;
 	text-align: center;
-	padding: 100px 0;
+	padding: 150px 0;
 	margin: 0;
 }
 .cover-about {
@@ -228,7 +228,7 @@ a {
 	/* background: #080120; */
 	display: block;
 	text-align: center;
-	padding: 100px 0;
+	padding: 150px 0;
 	margin: auto;
 }
 .cover-work {
@@ -238,7 +238,7 @@ a {
 	/* background: #080120; */
 	display: block;
 	text-align: center;
-	padding: 100px 0;
+	padding: 150px 0;
 	margin: auto;
 }
 
