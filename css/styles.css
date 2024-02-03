@@ -349,7 +349,7 @@ footer h2{
 .proj a:hover {
 	background-color: #EFF0F0;
 }
-.resume{
+.resume {
 	display:grid;
 	margin-top:20px;
 	grid-template-columns: [content-start] 1fr [content-end];
