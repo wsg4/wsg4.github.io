@@ -419,8 +419,9 @@ article ul{
   zoom: 1.0;
 } 
 
-@media (min-width:767px){
-	.resume{
+@media (max-width:767px){
+	.resume {
 		grid-template-columns: 2fr [content-start] 5fr [content-end];
+		grid-template-rows: auto [content-start] auto [content-end];
 	}
 }
