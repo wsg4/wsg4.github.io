@@ -216,7 +216,7 @@ a {
 /*Cover
 ------------------------*/
 .cover {
-    background: url(../images/80s_5.jpg) no-repeat top right;
+    background: url(../images/web_1.jpg) no-repeat top right;
 	background-size: cover;
         background-position: top 0px right 0px;
 	/* background: #080120; */
@@ -226,7 +226,7 @@ a {
 	margin: 0;
 }
 .cover-about {
-    background: url(../images/80s_3.jpg) no-repeat top center;
+    background: url(../images/web_2.jpg) no-repeat top center;
 	background-size: cover;
 	/* background-position: center center; */
 	/* background: #080120; */
@@ -236,7 +236,7 @@ a {
 	margin: auto;
 }
 .cover-work {
-    background: url(../images/80s_4.jpg) no-repeat top center;
+    background: url(../images/web_3.jpg) no-repeat top center;
 	background-size: cover;
 	/* background-position: center center; */
 	/* background: #080120; */
