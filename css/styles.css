@@ -216,9 +216,9 @@ a {
 /*Cover
 ------------------------*/
 .cover {
-    background: url(../images/web_1.jpg) no-repeat top center;
+    background: url(../images/web_1.jpg) top ;
 	background-size: cover;
-        background-position: top 0px right 0px;
+        /*background-position: top 0px right 0px;*/
 	/* background: #080120; */
 	display: block;
 	text-align: center;
