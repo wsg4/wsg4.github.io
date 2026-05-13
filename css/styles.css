@@ -1,8 +1,5 @@
 /*border box fix
 ------------------------*/
-
-html {
-	box-sizing: border-box;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -21,20 +18,27 @@ html {
 	font-family: 'Poppins', 'Helvetica', sans-serif;
 }
 
+:root {
+  --hamburger-fg: white;
+  --hamburger-bg: #081b29;
+  --color-accent: #00abf0;
+  --color-dark: #081b29;
+}
+
+
 body {
-	line-height:1.7;
-	font-size:18px;
+	line-height: 1.7;
+	font-size: 18px;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
 	letter-spacing: 1px;
-	margin:0;
 	background: #080120;
         color:white;
 	
 }
 h1, h2, h3, h4 {
 	font-family: 'Poppins', sans-serif;
-	color: #00abf0;
+	color: var(--color-accent);
 	margin: 0;
 }
 a {
@@ -83,6 +87,7 @@ a {
 
 /* Header and Nav Menu
 ----------------------- */
+
 .header {
     position:relative;
     width: 100%;
@@ -178,6 +183,11 @@ a {
 .hamburger:after {
     top: 10px;
     width: 30px;
+}
+
+.hamburger-menu:has(input:checked) {
+  --hamburger-fg: var(--color-dark);
+  --hamburger-bg: white;
 }
 
 .toggle-menu{
@@ -384,10 +394,6 @@ article ul{
 
 /*Responsive Design
 -------------------------*/
-@viewport {
-  width: device-width;
-  zoom: 1.0;
-} 
 
 @media (max-width:767px){
 	.resume {
